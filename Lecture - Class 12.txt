@@ -1,0 +1,45 @@
+How Programs Work, How to Write and Run Code, Data & Variables
+
+Topics to Cover & Demo in Lecture
+
+Navigating the Terminal (aka CLI or Command Line Interface)
+    Open a new Terminal
+        Ctrl + Shift + ~
+    Delete the terminal window if you want to start fresh
+        Trashcan icon
+    Navigate to the appropriate location within the file directory
+        $ pwd || This command shows the full path of the current directory you're in
+        $ ls || This command lists all files and directories in the current directory
+        $ cd || Use this command to move into a different directory
+        $ cd.. || Moves you up one directory level
+        $ cd ~ || Takes you to your home directory
+        $ mkdir || Creates a new directory
+        $ Ctrl + C || This command sends an interrupt signal to the process, which usually causes it to terminate immediately
+
+
+GitHub/Forking/Cloning/Etc
+
+You will be provided links to all of the repos in the course. You will need to fork and clone them to your computer. 
+When you fork a repo, you are making a copy of the original code. Any changes you make to the forked repo will not be applied to the original code. 
+This keeps the original starter code intact for the next student. Cloning the repo moves the repo code onto your computer. 
+If the code is not on your computer, you will not be able to work with it.
+
+Make sure you are signed into your GitHub account.
+Go to the starter code repo and fork it.  https://github.com/LaunchCodeEducation/python-hello-world
+    A. The original repo. Notice the Lauchcode rocket next to the name.
+    B. The Fork button. Click this to create a fork. You should be redirected to your fork once you click this button.
+The forked repo:
+    A. The repo will have the same name, but below it will be a link to the original repo.
+    B. Click the green <> Code button. This will open a new dropdown menu.
+    C. In the dropdown menu, select HTTPS. A URL will appear. Copy that URL.
+Return to your terminal. You should be in the directory for your course work.
+Run the following command:
+    git clone yoururlhere.git
+
+
+Opening the IDE and file that we just cloned from GitHub
+
+Click on the Explorer icon to the left - the icon looks like two documents
+Double click on hello.py
+
+Close and/or delete the old terminal to start fresh.  Must open a new one to display results.
